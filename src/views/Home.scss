@@ -1,0 +1,42 @@
+@import "@/styles/variables.scss";
+
+.home-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 25%;
+  color: $white-color;
+  box-shadow: inset 0 0 100px 20px #000;
+  background-image: url("../assets/images/background02.jpg");
+
+  h1 {
+    margin: 0;
+    font-size: $font-title-size;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin: 20px 0;
+    text-align: center;
+    font-size: $font-big-size;
+  }
+}
+
+.home-links {
+  width: 80%;
+  padding-top: 20px;
+  text-align: center;
+  border-top: 2px solid rgba($white-color, 0.5);
+
+  img {
+    height: 50px;
+    width: 50px;
+    margin: 0 2%;
+  }
+}

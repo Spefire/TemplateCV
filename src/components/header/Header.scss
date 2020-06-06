@@ -1,0 +1,25 @@
+@import "@/styles/variables.scss";
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 50px;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+
+  a {
+    margin: 0 2%;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $white-color;
+  }
+}
