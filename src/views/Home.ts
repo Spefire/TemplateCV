@@ -7,8 +7,9 @@ import instagramIcon from "@/assets/icons/instagram.svg";
 import twitchIcon from "@/assets/icons/twitch.svg";*/
 import circleDownIcon from "@/assets/icons/circle-down.svg";
 import githubIcon from "@/assets/icons/github.svg";
+import envelopIcon from "@/assets/icons/envelop.svg";
+import folderUploadIcon from "@/assets/icons/folder-upload.svg";
 import linkedinIcon from "@/assets/icons/linkedin.svg";
-import profileImage from "@/assets/images/profile.png";
 
 export default {
   name: "Home",
@@ -24,8 +25,9 @@ export default {
       circleDownIcon: circleDownIcon,
       githubIcon: githubIcon,
       linkedinIcon: linkedinIcon,
+      envelopIcon: envelopIcon,
+      folderUploadIcon: folderUploadIcon,
       cvFile: cvFile,
-      profileImage: profileImage,
     };
   },
 };

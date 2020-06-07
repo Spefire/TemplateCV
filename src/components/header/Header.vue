@@ -3,8 +3,8 @@
     <nav>
       <a>Accueil</a>
       <a>Présentation</a>
-      <a>Formations</a>
-      <a>Expériences</a>
+      <a>Formations et Expériences</a>
+      <a>Loisirs et Hobbies</a>
       <a>Contact</a>
     </nav>
   </header>
