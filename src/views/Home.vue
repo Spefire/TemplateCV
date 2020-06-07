@@ -13,7 +13,7 @@
         <img alt="LinkedIn" v-bind:src="linkedinIcon" />
       </div>
     </div>
-    <div class="about-button">
+    <div class="home-button">
       <img v-bind:src="circleDownIcon" />
     </div>
     <div class="about-section">
@@ -56,6 +56,10 @@
         </div>
       </div>
     </div>
+    <div class="footer-button">
+      <img v-bind:src="circleDownIcon" />
+    </div>
+    <Footer />
   </div>
 </template>
 
