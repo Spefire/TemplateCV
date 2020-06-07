@@ -10,28 +10,55 @@ import ProgressBar from "@/components/progress-bar/ProgressBar.vue";
 export default class Skills extends Vue {
   skillList = [
     {
-      name: "University of Life",
-      value: 30,
-    },
-    {
-      name: "University of Test",
-      value: 50,
-    },
-    {
-      name: "University of Life",
+      name: "Photoshop",
       value: 80,
     },
     {
-      name: "University of Test",
-      value: 60,
+      name: "Indesign",
+      value: 65,
+    },
+    {
+      name: "Illustrator",
+      value: 55,
+    },
+    {
+      name: "HTML / CSS",
+      value: 80,
+    },
+    {
+      name: "Javascript",
+      value: 40,
+    },
+    {
+      name: "JQuery",
+      value: 55,
+    },
+    {
+      name: "Bootstrap",
+      value: 55,
+    },
+    {
+      name: "Php",
+      value: 55,
+    },
+    {
+      name: "Zendesk",
+      value: 75,
+    },
+    {
+      name: "Selligent",
+      value: 90,
     },
   ];
 
   otherSkillList = [
-    "Adaptation",
-    "Sens des responsabilités",
-    "Polyvalence",
-    "Communication",
-    "Travail d’équipe ",
+    "Esprit critique",
+    "Organisation",
+    "Flexibilité",
+    "Négociation",
+    "Envie d'apprendre",
+    "Raisonnement analytique",
+    "Travail d’équipe",
+    "Créativité",
   ];
 }
