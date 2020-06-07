@@ -10,17 +10,23 @@ import Footer from "@/components/footer/Footer.vue";
 import Header from "@/components/header/Header.vue";
 
 import About from "@/views/about/About.vue";
+import Contact from "@/views/contact/Contact.vue";
 import Education from "@/views/education/Education.vue";
 import Experiences from "@/views/experiences/Experiences.vue";
+import Hobbies from "@/views/hobbies/Hobbies.vue";
+import Skills from "@/views/skills/Skills.vue";
 
 export default {
   name: "Home",
   components: {
     About,
+    Contact,
     Education,
     Experiences,
     Footer,
     Header,
+    Hobbies,
+    Skills,
   },
   data() {
     return {

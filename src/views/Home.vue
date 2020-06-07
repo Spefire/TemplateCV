@@ -19,6 +19,9 @@
     <About />
     <Education />
     <Experiences />
+    <Skills />
+    <Hobbies />
+    <Contact />
     <div class="footer-button">
       <img v-bind:src="circleDownIcon" />
     </div>

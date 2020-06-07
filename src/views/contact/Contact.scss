@@ -1,0 +1,45 @@
+@import "@/styles/variables.scss";
+
+.contact-section {
+  display: flex;
+  padding: 35px 20%;
+  background: $dark-secondary-color;
+
+  .contact-profile {
+    height: 250px;
+    width: 200px;
+    border: 2px solid $white-color;
+    background-size: auto 100%;
+    background-position: center;
+    background-image: url("../../assets/images/profile.png");
+  }
+
+  .contact-text {
+    color: $secondary-color;
+  }
+
+  .contact-links {
+    display: flex;
+
+    a {
+      display: flex;
+      align-items: center;
+      padding: 12px 20px;
+      border-radius: 4px;
+      font-weight: bold;
+      color: $white-color;
+      background: $secondary-color;
+      text-decoration: none;
+      cursor: pointer;
+
+      img {
+        height: 20px;
+        margin-right: 8px;
+      }
+    }
+
+    a:first-child {
+      margin-right: 20px;
+    }
+  }
+}
