@@ -1,0 +1,18 @@
+@import "@/styles/variables.scss";
+
+.education-section {
+  display: flex;
+  padding: 35px 20%;
+  background: $white-color;
+
+  h2 {
+    height: fit-content;
+    width: fit-content;
+    color: $dark-secondary-color;
+  }
+
+  .education-title {
+    text-transform: uppercase;
+    border-bottom: 4px solid $primary-color;
+  }
+}

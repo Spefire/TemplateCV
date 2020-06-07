@@ -49,73 +49,12 @@
   }
 }
 
-.about-section {
-  display: flex;
-  padding: 35px 20%;
-  background: $dark-secondary-color;
-
-  .about-profile {
-    height: 250px;
-    width: 200px;
-    border: 2px solid $white-color;
-    background-size: auto 100%;
-    background-position: center;
-    background-image: url("../assets/images/profile.png");
-  }
-
-  .about-text {
-    color: $secondary-color;
-  }
-
-  .about-links {
-    display: flex;
-
-    a {
-      display: flex;
-      align-items: center;
-      padding: 12px 20px;
-      border-radius: 4px;
-      font-weight: bold;
-      color: $white-color;
-      background: $secondary-color;
-      text-decoration: none;
-      cursor: pointer;
-
-      img {
-        height: 20px;
-        margin-right: 8px;
-      }
-    }
-
-    a:first-child {
-      margin-right: 20px;
-    }
-  }
-}
-
-.education-section {
-  display: flex;
-  padding: 35px 20%;
-  background: $white-color;
-
-  h2 {
-    height: fit-content;
-    width: fit-content;
-    color: $dark-secondary-color;
-  }
-
-  .education-title {
-    text-transform: uppercase;
-    border-bottom: 4px solid $primary-color;
-  }
-}
-
 .footer-button {
   position: relative;
   bottom: -25px;
   left: 0;
   z-index: 1;
-  height: 50px;
+  height: 0;
   width: 100%;
   text-align: center;
   transform: rotate(180deg);
