@@ -20,4 +20,23 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      flex: 1 0 48%;
+      margin-bottom: 10px;
+      list-style-type: none;
+
+      &:nth-child(even) {
+        margin-left: 4%;
+      }
+    }
+
+    li:before {
+      content: "• "; /* on affiche une chaîne de caractère */
+    }
+  }
 }

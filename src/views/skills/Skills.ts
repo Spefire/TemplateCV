@@ -18,4 +18,6 @@ export default class Skills extends Vue {
       value: 50,
     },
   ];
+
+  otherSkillList = ["Social", "Social", "Social", "Social", "Social"];
 }
