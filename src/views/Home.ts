@@ -1,9 +1,11 @@
 import Header from "@/components/header/Header.vue";
-import facebookIcon from "@/assets/icons/facebook.svg";
+
+/*import facebookIcon from "@/assets/icons/facebook.svg";
 import twitterIcon from "@/assets/icons/twitter.svg";
 import instagramIcon from "@/assets/icons/instagram.svg";
-import twitchIcon from "@/assets/icons/twitch.svg";
-import wallpaper from "@/assets/images/background01.jpg";
+import twitchIcon from "@/assets/icons/twitch.svg";*/
+import githubIcon from "@/assets/icons/github.svg";
+import linkedinIcon from "@/assets/icons/linkedin.svg";
 
 export default {
   name: "Home",
@@ -12,11 +14,12 @@ export default {
   },
   data() {
     return {
-      facebookIcon: facebookIcon,
+      /*facebookIcon: facebookIcon,
       twitterIcon: twitterIcon,
       instagramIcon: instagramIcon,
-      twitchIcon: twitchIcon,
-      wallpaper: wallpaper,
+      twitchIcon: twitchIcon,*/
+      githubIcon: githubIcon,
+      linkedinIcon: linkedinIcon,
     };
   },
 };

@@ -2,7 +2,7 @@
   <header>
     <nav>
       <a>Accueil</a>
-      <a>A propos</a>
+      <a>Présentation</a>
       <a>Formations</a>
       <a>Expériences</a>
       <a>Contact</a>
