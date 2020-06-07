@@ -15,4 +15,9 @@
     text-transform: uppercase;
     border-bottom: 4px solid $primary-color;
   }
+
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }

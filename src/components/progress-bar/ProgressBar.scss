@@ -1,0 +1,34 @@
+@import "@/styles/variables.scss";
+
+.progress-bar {
+  flex: 1 0 48%;
+
+  &:nth-child(even) {
+    margin-left: 4%;
+  }
+}
+
+.progress-bar-header {
+  display: flex;
+  justify-content: space-between;
+
+  h4 {
+    color: $black-color;
+  }
+
+  h4:first-child {
+    text-transform: uppercase;
+  }
+}
+
+.progress-bar-externe {
+  height: 25px;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: $primary-color;
+
+  .progress-bar-interne {
+    height: 25px;
+    background-color: $dark-secondary-color;
+  }
+}

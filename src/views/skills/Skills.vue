@@ -3,12 +3,13 @@
     <div class="section-left-layout">
       <h2 class="skills-title">Compétences</h2>
     </div>
-    <div class="section-right-layout">
-      <div v-for="(skill, index) in skillList" :key="index">
-        <h2>{{ skill.name }}</h2>
-        <h4>{{ skill.place }} • {{ skill.date }}</h4>
-        <p>{{ skill.description }}</p>
-      </div>
+    <div class="section-right-layout skills-list">
+      <ProgressBar
+        v-for="(skill, index) in skillList"
+        v-bind:key="index"
+        v-bind:name="skill.name"
+        v-bind:value="skill.value"
+      />
     </div>
   </div>
 </template>
