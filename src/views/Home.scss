@@ -38,3 +38,23 @@
     cursor: pointer;
   }
 }
+
+.about-button {
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  z-index: 1;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+
+  img {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+  }
+}
+
+.about-section {
+  background: $secondary-color;
+}
