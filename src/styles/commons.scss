@@ -1,0 +1,12 @@
+@import "@/styles/variables.scss";
+
+.section-left-layout {
+  display: flex;
+  justify-content: flex-end;
+  width: 25%;
+}
+
+.section-right-layout {
+  width: calc(75% - 50px);
+  margin-left: 50px;
+}

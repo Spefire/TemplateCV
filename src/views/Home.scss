@@ -51,14 +51,12 @@
 
 .about-section {
   display: flex;
-  align-items: center;
   padding: 35px 20%;
   background: $dark-secondary-color;
 
   .about-profile {
     height: 250px;
-    min-width: 200px;
-    margin: 0 50px;
+    width: 200px;
     border: 2px solid $white-color;
     background-size: auto 100%;
     background-position: center;
@@ -71,7 +69,6 @@
 
   .about-links {
     display: flex;
-    justify-content: space-around;
 
     a {
       display: flex;
@@ -89,5 +86,26 @@
         margin-right: 8px;
       }
     }
+
+    a:first-child {
+      margin-right: 20px;
+    }
+  }
+}
+
+.education-section {
+  display: flex;
+  padding: 35px 20%;
+  background: $white-color;
+
+  h2 {
+    height: fit-content;
+    width: fit-content;
+    color: $dark-secondary-color;
+  }
+
+  .education-title {
+    text-transform: uppercase;
+    border-bottom: 4px solid $primary-color;
   }
 }
