@@ -10,3 +10,24 @@
   width: calc(75% - 50px);
   margin-left: 50px;
 }
+
+.link-button {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  color: $white-color;
+  background: $secondary-color;
+  text-decoration: none;
+  cursor: pointer;
+
+  img {
+    height: 20px;
+    margin-right: 8px;
+  }
+}
+
+.link-button:first-child {
+  margin-right: 20px;
+}

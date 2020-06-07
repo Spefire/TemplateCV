@@ -7,7 +7,7 @@
       <div v-for="(exp, index) in expList" :key="index">
         <h2>{{ exp.name }}</h2>
         <h4>{{ exp.place }} • {{ exp.date }}</h4>
-        <p>{{ exp.description }}</p>
+        <p v-html="exp.description"></p>
       </div>
     </div>
   </div>

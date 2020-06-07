@@ -1,17 +1,20 @@
 <template>
   <div class="contact-section">
     <div class="section-left-layout">
-      <div class="contact-profile" />
+      <img class="contact-icon" alt="Contact" v-bind:src="usersIcon" />
     </div>
-    <div class="section-right-layout">
-      <h2>Contact</h2>
-      <p class="contact-text">{{ contactText }}</p>
-      <div class="contact-links">
-        <a v-bind:href="cvFile" download>
-          <img alt="Télécharger" v-bind:src="folderUploadIcon" />Télécharger le CV
-        </a>
-        <a>
-          <img alt="Enveloppe" v-bind:src="envelopIcon" />Me contacter
+    <div class="section-right-layout contact-links">
+      <div>
+        <h4>Adresse postale</h4>
+        <p class="contact-text" v-html="contactAdress"></p>
+        <h4>Téléphone</h4>
+        <p class="contact-text">{{ contactPhone }}</p>
+      </div>
+      <div>
+        <h4>Courriel</h4>
+        <p class="contact-text">{{ contactMail }}</p>
+        <a class="link-button">
+          <img alt="Mail" v-bind:src="envelopIcon" />M'envoyer un mail
         </a>
       </div>
     </div>

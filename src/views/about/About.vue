@@ -5,13 +5,13 @@
     </div>
     <div class="section-right-layout">
       <h2>Présentation</h2>
-      <p class="about-text">{{aboutText}}</p>
+      <p class="about-text" v-html="aboutText"></p>
       <div class="about-links">
-        <a v-bind:href="cvFile" download>
+        <a class="link-button" v-bind:href="cvFile" download>
           <img alt="Télécharger" v-bind:src="folderUploadIcon" />Télécharger le CV
         </a>
-        <a>
-          <img alt="Enveloppe" v-bind:src="envelopIcon" />Me contacter
+        <a class="link-button">
+          <img alt="Contact" v-bind:src="usersIcon" />Me contacter
         </a>
       </div>
     </div>
