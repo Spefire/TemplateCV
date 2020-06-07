@@ -17,7 +17,21 @@ export default class Skills extends Vue {
       name: "University of Test",
       value: 50,
     },
+    {
+      name: "University of Life",
+      value: 80,
+    },
+    {
+      name: "University of Test",
+      value: 60,
+    },
   ];
 
-  otherSkillList = ["Social", "Social", "Social", "Social", "Social"];
+  otherSkillList = [
+    "Adaptation",
+    "Sens des responsabilités",
+    "Polyvalence",
+    "Communication",
+    "Travail d’équipe ",
+  ];
 }

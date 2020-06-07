@@ -1,14 +1,34 @@
 import { Component, Vue } from "vue-property-decorator";
 
-@Component
+import airplaneIcon from "@/assets/icons/airplane.svg";
+import bookIcon from "@/assets/icons/book.svg";
+import pacmanIcon from "@/assets/icons/pacman.svg";
+import videoCameraIcon from "@/assets/icons/video-camera.svg";
+
+import HobbieState from "@/components/hobbie-state/HobbieState.vue";
+
+@Component({
+  components: {
+    HobbieState,
+  },
+})
 export default class Hobbies extends Vue {
   hobbieList = [
     {
-      name: "University of Life",
-      date: "April 2007",
-      place: "Master in Graphic Design",
-      description:
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+      name: "Voyage",
+      image: airplaneIcon,
+    },
+    {
+      name: "Cinéma",
+      image: videoCameraIcon,
+    },
+    {
+      name: "Littérature",
+      image: bookIcon,
+    },
+    {
+      name: "Jeux vidéo",
+      image: pacmanIcon,
     },
   ];
 }

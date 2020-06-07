@@ -15,4 +15,9 @@
     text-transform: uppercase;
     border-bottom: 4px solid $white-color;
   }
+
+  .hobbies-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
