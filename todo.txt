@@ -1,6 +1,4 @@
-- Gérer le header
-- Changer le header en rajoutant les compétences
-- Gérer les boutons de navigation
+- Gérer la navigation (et le surlignage du header)
 - Changer les textes formations et expériences
 - Gérer le responsive
 - Gérer les liens sociaux

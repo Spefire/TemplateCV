@@ -1,10 +1,13 @@
 <template>
-  <header>
+  <header
+    v-bind:class="{ 'with-background': fixNavbar }"
+    v-bind:style="{ 'opacity': fixNavbar ? '1.0' : opacNavbar }"
+  >
     <nav>
       <a>Accueil</a>
       <a>Présentation</a>
       <a>Formations et Expériences</a>
-      <a>Loisirs et Hobbies</a>
+      <a>Compétences</a>
       <a>Contact</a>
     </nav>
   </header>
