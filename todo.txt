@@ -4,10 +4,7 @@
 - Changer les textes formations et expériences
 - Gérer le responsive
 - Gérer les liens sociaux
-- Enregistrer le CV pdf
 - Gérer la police d'écriture
-
-- Pusher sur Github
 
 - (optionnel) Ajouter les balises meta
 - (optionnel) Changer la section expériences
