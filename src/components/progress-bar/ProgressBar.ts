@@ -4,5 +4,5 @@ import { Component, Vue, Prop } from "vue-property-decorator";
 export default class ProgressBar extends Vue {
   @Prop(String) name!: string;
   @Prop(Number) value!: number;
-  progressList = ["Basique", "Intermédiaire", "Avancée"];
+  progressList = ["Basique", "Intermédiaire", "Avancée", "Native"];
 }

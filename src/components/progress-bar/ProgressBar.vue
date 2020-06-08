@@ -5,6 +5,7 @@
       <h4 v-if="0 <= value && value < 35">{{ progressList[0] }}</h4>
       <h4 v-else-if="35 <= value && value < 65">{{ progressList[1] }}</h4>
       <h4 v-else-if="65 <= value && value < 100">{{ progressList[2] }}</h4>
+      <h4 v-else-if="100 <= value">{{ progressList[3] }}</h4>
     </div>
     <div class="progress-bar-externe">
       <div class="progress-bar-interne" v-bind:style="{ 'width': value + '%' }"></div>

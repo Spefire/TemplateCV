@@ -20,6 +20,7 @@
     <Education />
     <Experiences />
     <Skills />
+    <Languages />
     <Hobbies />
     <Contact />
     <div class="footer-button">

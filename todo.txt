@@ -6,7 +6,6 @@
 - Gérer les liens sociaux
 - Enregistrer le CV pdf
 - Gérer la police d'écriture
-- Ajouter la section langues après les compétences
 
 - Pusher sur Github
 

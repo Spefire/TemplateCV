@@ -14,6 +14,7 @@ import Contact from "@/views/contact/Contact.vue";
 import Education from "@/views/education/Education.vue";
 import Experiences from "@/views/experiences/Experiences.vue";
 import Hobbies from "@/views/hobbies/Hobbies.vue";
+import Languages from "@/views/languages/Languages.vue";
 import Skills from "@/views/skills/Skills.vue";
 
 export default {
@@ -26,6 +27,7 @@ export default {
     Footer,
     Header,
     Hobbies,
+    Languages,
     Skills,
   },
   data() {
