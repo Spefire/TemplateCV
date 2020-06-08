@@ -41,7 +41,7 @@ export default {
       linkedinIcon: linkedinIcon,
       name: "Cécile Blin",
       description:
-        "I'm a Manila based graphic designer, illustrator and webdesigner creating awesome and effective visual identities for companies of all sizes around the globe. Let's start scrolling and learn more about me.",
+        "Je travaille dans le domaine du <b>Marketing et du Social media</b>.<br/>Faisons défiler la page pour en apprendre plus sur moi.",
     };
   },
 };

@@ -27,19 +27,19 @@ export default class Skills extends Vue {
     },
     {
       name: "Javascript",
-      value: 40,
+      value: 50,
     },
     {
       name: "JQuery",
-      value: 55,
+      value: 40,
     },
     {
       name: "Bootstrap",
-      value: 55,
+      value: 40,
     },
     {
       name: "Php",
-      value: 55,
+      value: 40,
     },
     {
       name: "Zendesk",

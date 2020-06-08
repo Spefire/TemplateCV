@@ -4,25 +4,31 @@ import { Component, Vue } from "vue-property-decorator";
 export default class Experiences extends Vue {
   expList = [
     {
-      name: "University of Life",
-      date: "April 2007",
-      place: "Master in Graphic Design",
+      name: "SPBI Jeanneau",
+      date: "2018 - 2020",
+      place: "Nantes",
       description:
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+        "Mise en place d'outil ticketing (Zendeks)<br/>Codage FAQ (Guide)<br/>Aide mise en place d'un e-shop (Prestashop)<br/>Mise en place parcours client digital<br/>Création de supports formation hôtesses",
     },
     {
-      name: "University of Life",
-      date: "April 2007",
-      place: "Master in Graphic Design",
+      name: "SPBI Jeanneau",
+      date: "2017 - 2018",
+      place: "Nantes",
       description:
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+        "Gestion relation client<br/>Gestion e-shop<br/>Soutien à l'organisation d'évènements<br/>Création de books hôtesses",
     },
     {
-      name: "University of Life",
-      date: "April 2007",
-      place: "Master in Graphic Design",
+      name: "Hôtel de France",
+      date: "2015 - 2017",
+      place: "Nantes",
       description:
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+        "Gestion hôtelière<br/>Service en salle<br/>Création de supports communication<br/>Création d'un site web<br/>Création et animation d'une page facebook",
+    },
+    {
+      name: "Cultural Care au pair",
+      date: "2014 - 2015",
+      place: "New York",
+      description: "Fille au pair aux Etats-Unis",
     },
   ];
 }

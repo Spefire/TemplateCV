@@ -4,18 +4,29 @@ import { Component, Vue } from "vue-property-decorator";
 export default class Education extends Vue {
   educList = [
     {
-      name: "University of Life",
-      date: "April 2007",
-      place: "Master in Graphic Design",
-      description:
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+      name: "BTS NDRC",
+      date: "2018 - 2020",
+      place: "Nantes",
+      description: "Négociation et digitalisation de la relation client",
     },
     {
-      name: "University of Life",
-      date: "April 2007",
-      place: "Master in Graphic Design",
+      name: "Bachelor CCM University of Life",
+      date: "2012 - 2013",
+      place: "Nantes",
+      description: "Commerce, communication et management",
+    },
+    {
+      name: "Licence Lettres modernes",
+      date: "2009 - 2011",
+      place: "Nantes",
+      description: "Obtention des 2 premières années",
+    },
+    {
+      name: "BAC SES",
+      date: "2009",
+      place: "Nantes",
       description:
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+        "Sciences économiques et sociales, spécialisation mathématiques",
     },
   ];
 }

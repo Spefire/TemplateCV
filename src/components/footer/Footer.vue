@@ -6,9 +6,8 @@
     </div>
     <div>
       Template créé par
-      <a href="https://github.com/Spefire/TemplateCV">
-        <b>Nicholas Brun</b>, aka
-        Spefire
+      <a href="https://github.com/Spefire/TemplateCV" target="_blank">
+        <b>Nicholas Brun</b>, aka Spefire
       </a>
     </div>
   </footer>

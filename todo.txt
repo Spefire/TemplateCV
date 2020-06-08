@@ -1,4 +1,3 @@
-- Changer les textes formations et expériences
 - Gérer le responsive
 - Gérer les liens sociaux
 - Gérer la police d'écriture

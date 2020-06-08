@@ -3,7 +3,7 @@
     <Header />
     <div id="nav-home" class="home-section">
       <h1>{{ name }}</h1>
-      <p>{{ description }}</p>
+      <p v-html="description"></p>
       <div class="home-links">
         <!--img alt="Facebook" v-bind:src="facebookIcon" />
         <img alt="Twitter" v-bind:src="twitterIcon" />
