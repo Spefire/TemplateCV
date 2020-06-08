@@ -1,9 +1,24 @@
 import Vue from "vue";
 import VueRouter, { RouteConfig } from "vue-router";
-// @ is an alias to /src
+import VueScrollTo from "vue-scrollto";
+
 import Home from "@/views/Home.vue";
 
 Vue.use(VueRouter);
+// VueScrollTo with default options
+Vue.use(VueScrollTo, {
+  container: "body",
+  duration: 500,
+  easing: "ease",
+  offset: 0,
+  force: true,
+  cancelable: true,
+  onStart: false,
+  onDone: false,
+  onCancel: false,
+  x: false,
+  y: true,
+});
 
 const routes: Array<RouteConfig> = [
   {

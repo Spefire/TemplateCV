@@ -20,11 +20,12 @@ nav {
   height: 100%;
   width: 100%;
 
-  a {
+  div {
     margin: 0 2%;
     font-weight: bold;
     text-transform: uppercase;
     color: $white-color;
+    text-decoration: none;
     cursor: pointer;
   }
 }

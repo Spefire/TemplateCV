@@ -1,5 +1,5 @@
 <template>
-  <div class="languages-section">
+  <div id="nav-languages" class="languages-section">
     <div class="section-left-layout">
       <h2 class="languages-title">Langues</h2>
     </div>

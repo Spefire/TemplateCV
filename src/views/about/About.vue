@@ -1,5 +1,5 @@
 <template>
-  <div class="about-section">
+  <div id="nav-about" class="about-section">
     <div class="section-left-layout">
       <div class="about-profile" />
     </div>
@@ -8,9 +8,13 @@
       <p class="about-text" v-html="aboutText"></p>
       <div class="about-links">
         <a class="link-button" v-bind:href="cvFile" download>
-          <img alt="Télécharger" v-bind:src="folderUploadIcon" />Télécharger le CV
+          <img alt="Télécharger" v-bind:src="folderUploadIcon" />Télécharger le
+          CV
         </a>
-        <a class="link-button">
+        <a
+          class="link-button"
+          v-scroll-to="{ el: '#nav-contact', offset: -50 }"
+        >
           <img alt="Contact" v-bind:src="usersIcon" />Me contacter
         </a>
       </div>

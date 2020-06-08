@@ -1,5 +1,5 @@
 <template>
-  <div class="education-section">
+  <div id="nav-education" class="education-section">
     <div class="section-left-layout">
       <h2 class="education-title">Formations</h2>
     </div>

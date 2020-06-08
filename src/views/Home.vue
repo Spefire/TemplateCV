@@ -1,7 +1,7 @@
 <template>
   <div class="home-page">
     <Header />
-    <div class="home-section">
+    <div id="nav-home" class="home-section">
       <h1>{{ name }}</h1>
       <p>{{ description }}</p>
       <div class="home-links">
@@ -13,7 +13,7 @@
         <img alt="LinkedIn" v-bind:src="linkedinIcon" />
       </div>
     </div>
-    <div class="home-button">
+    <div class="home-button" v-scroll-to="{ el: '#nav-about', offset: 0 }">
       <img v-bind:src="circleDownIcon" />
     </div>
     <About />
@@ -23,7 +23,7 @@
     <Languages />
     <Hobbies />
     <Contact />
-    <div class="footer-button">
+    <div class="footer-button" v-scroll-to="{ el: '#nav-home', offset: 0 }">
       <img v-bind:src="circleDownIcon" />
     </div>
     <Footer />

@@ -1,14 +1,16 @@
 <template>
   <header
     v-bind:class="{ 'with-background': fixNavbar }"
-    v-bind:style="{ 'opacity': fixNavbar ? '1.0' : opacNavbar }"
+    v-bind:style="{ opacity: fixNavbar ? '1.0' : opacNavbar }"
   >
     <nav>
-      <a>Accueil</a>
-      <a>Présentation</a>
-      <a>Formations et Expériences</a>
-      <a>Compétences</a>
-      <a>Contact</a>
+      <div v-scroll-to="{ el: '#nav-home', offset: 0 }">Accueil</div>
+      <div v-scroll-to="{ el: '#nav-about', offset: 0 }">Présentation</div>
+      <div v-scroll-to="{ el: '#nav-education', offset: -50 }">
+        Formations et Expériences
+      </div>
+      <div v-scroll-to="{ el: '#nav-skills', offset: -50 }">Compétences</div>
+      <div v-scroll-to="{ el: '#nav-contact', offset: -50 }">Contact</div>
     </nav>
   </header>
 </template>

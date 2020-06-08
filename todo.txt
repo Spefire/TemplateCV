@@ -1,9 +1,10 @@
-- Gérer la navigation (et le surlignage du header)
+- Gérer le surlignage du header
 - Changer les textes formations et expériences
 - Gérer le responsive
 - Gérer les liens sociaux
 - Gérer la police d'écriture
 
+- (optionnel) Gérer le changement de couleur des svg (buttons)
 - (optionnel) Ajouter les balises meta
 - (optionnel) Changer la section expériences
 - (optionnel) Mettre tout le texte dans un seul fichier
