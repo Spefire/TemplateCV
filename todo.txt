@@ -1,4 +1,3 @@
-- Gérer le surlignage du header
 - Changer les textes formations et expériences
 - Gérer le responsive
 - Gérer les liens sociaux

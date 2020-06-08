@@ -27,5 +27,9 @@ nav {
     color: $white-color;
     text-decoration: none;
     cursor: pointer;
+
+    &.active {
+      color: $primary-color;
+    }
   }
 }
