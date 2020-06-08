@@ -2,7 +2,14 @@
   <footer>
     <div>
       © Copyrights
-      <b>Cécile Blin</b>. All Rights Reserved
+      <b>Cécile Blin</b>
+    </div>
+    <div>
+      Template créé par
+      <a href="https://github.com/Spefire/TemplateCV">
+        <b>Nicholas Brun</b>, aka
+        Spefire
+      </a>
     </div>
   </footer>
 </template>

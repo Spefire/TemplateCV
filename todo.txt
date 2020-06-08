@@ -7,7 +7,6 @@
 - Enregistrer le CV pdf
 - Gérer la police d'écriture
 - Ajouter la section langues après les compétences
-- Ajouter template par Spefire
 
 - Pusher sur Github
 
