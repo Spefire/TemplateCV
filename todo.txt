@@ -1,0 +1,16 @@
+- Gérer le header
+- Changer le header en rajoutant les compétences
+- Gérer les boutons de navigation
+- Changer les textes formations et expériences
+- Gérer le responsive
+- Gérer les liens sociaux
+- Enregistrer le CV pdf
+- Gérer la police d'écriture
+- Ajouter la section langues après les compétences
+- Ajouter template par Spefire
+
+- Pusher sur Github
+
+- (optionnel) Ajouter les balises meta
+- (optionnel) Changer la section expériences
+- (optionnel) Mettre tout le texte dans un seul fichier

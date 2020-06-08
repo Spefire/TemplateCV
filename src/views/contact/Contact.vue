@@ -13,7 +13,7 @@
       <div>
         <h4>Courriel</h4>
         <p class="contact-text">{{ contactMail }}</p>
-        <a class="link-button">
+        <a class="link-button" v-bind:href="'mailto:' + contactMail">
           <img alt="Mail" v-bind:src="envelopIcon" />M'envoyer un mail
         </a>
       </div>
