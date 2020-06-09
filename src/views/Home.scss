@@ -7,7 +7,7 @@
   align-items: center;
   height: 100vh;
   width: 100%;
-  padding: 25%;
+  padding: 20%;
   color: $white-color;
   box-shadow: inset 0 0 100px 20px #000;
   background-image: url("../assets/images/background02.jpg");
@@ -18,7 +18,7 @@
     font-size: 24px;
   }
 
-  @include mobile-only {
+  @include tablet-only {
     padding: 7.5%;
   }
 }
