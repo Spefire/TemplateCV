@@ -2,12 +2,13 @@
 
 .contact-section {
   display: flex;
-  padding: 35px 20%;
+  padding: 35px 20% 50px 20%;
   background: $dark-secondary-color;
 
   .contact-icon {
     height: 100px;
     width: 100px;
+    cursor: default;
   }
 
   .contact-text {

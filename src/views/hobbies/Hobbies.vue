@@ -9,7 +9,7 @@
           v-for="(hobbie, index) in hobbieList"
           v-bind:key="'hobbieList' + index"
           v-bind:name="hobbie.name"
-          v-bind:image="hobbie.image"
+          v-bind:icon="hobbie.icon"
         />
       </div>
     </div>

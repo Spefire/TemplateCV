@@ -1,11 +1,5 @@
 import { Component, Vue } from "vue-property-decorator";
 
-import accessibilityIcon from "@/assets/icons/accessibility.svg";
-import airplaneIcon from "@/assets/icons/airplane.svg";
-import bookIcon from "@/assets/icons/book.svg";
-import pacmanIcon from "@/assets/icons/pacman.svg";
-import videoCameraIcon from "@/assets/icons/video-camera.svg";
-
 import HobbieState from "@/components/hobbie-state/HobbieState.vue";
 
 @Component({
@@ -17,23 +11,23 @@ export default class Hobbies extends Vue {
   hobbieList = [
     {
       name: "Voyage",
-      image: airplaneIcon,
+      icon: "airplane",
     },
     {
       name: "Cinéma",
-      image: videoCameraIcon,
+      icon: "video-camera",
     },
     {
       name: "Littérature",
-      image: bookIcon,
+      icon: "book",
     },
     {
       name: "Jeux vidéo",
-      image: pacmanIcon,
+      icon: "pacman",
     },
     {
       name: "Exercices physiques",
-      image: accessibilityIcon,
+      icon: "accessibility",
     },
   ];
 }

@@ -8,14 +8,14 @@
       <p class="about-text" v-html="aboutText"></p>
       <div class="about-links">
         <a class="link-button" v-bind:href="cvFile" download>
-          <img alt="Télécharger" v-bind:src="folderUploadIcon" />Télécharger le
-          CV
+          <span class="icon button-icon icon-folder-upload"></span>Télécharger
+          le CV
         </a>
         <a
           class="link-button"
           v-scroll-to="{ el: '#nav-contact', offset: -50 }"
         >
-          <img alt="Contact" v-bind:src="usersIcon" />Me contacter
+          <span class="icon button-icon icon-users"></span>Me contacter
         </a>
       </div>
     </div>

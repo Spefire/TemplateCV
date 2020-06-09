@@ -5,16 +5,16 @@
       <h1>{{ name }}</h1>
       <p v-html="description"></p>
       <div class="home-links">
-        <!--img alt="Facebook" v-bind:src="facebookIcon" />
-        <img alt="Twitter" v-bind:src="twitterIcon" />
-        <img alt="Instagram" v-bind:src="instagramIcon" />
-        <img alt="Twitch" v-bind:src="twitchIcon"/-->
-        <img alt="GitHub" v-bind:src="githubIcon" />
-        <img alt="LinkedIn" v-bind:src="linkedinIcon" />
+        <!--span class="icon home-icon icon-facebook"></span>
+        <span class="icon home-icon icon-twitter"></span>
+        <span class="icon home-icon icon-instagram"></span>
+        <span class="icon home-icon icon-twitch"></span-->
+        <span class="icon home-icon icon-github"></span>
+        <span class="icon home-icon icon-linkedin"></span>
       </div>
     </div>
     <div class="home-button" v-scroll-to="{ el: '#nav-about', offset: 0 }">
-      <img v-bind:src="circleDownIcon" />
+      <span class="icon home-icon icon-circle-down"></span>
     </div>
     <About />
     <Education />
@@ -24,7 +24,7 @@
     <Hobbies />
     <Contact />
     <div class="footer-button" v-scroll-to="{ el: '#nav-home', offset: 0 }">
-      <img v-bind:src="circleDownIcon" />
+      <span class="icon home-icon icon-circle-down"></span>
     </div>
     <Footer />
   </div>

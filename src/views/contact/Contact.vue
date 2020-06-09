@@ -1,7 +1,7 @@
 <template>
   <div id="nav-contact" class="contact-section">
     <div class="section-left-layout">
-      <img class="contact-icon" alt="Contact" v-bind:src="usersIcon" />
+      <span class="icon contact-icon icon-users"></span>
     </div>
     <div class="section-right-layout">
       <h2>Contact</h2>
@@ -16,7 +16,7 @@
           <h4>Courriel</h4>
           <p class="contact-text">{{ contactMail }}</p>
           <a class="link-button" v-bind:href="'mailto:' + contactMail">
-            <img alt="Mail" v-bind:src="envelopIcon" />M'envoyer un mail
+            <span class="icon button-icon icon-envelop"></span>M'envoyer un mail
           </a>
         </div>
       </div>

@@ -1,11 +1,3 @@
-/*import facebookIcon from "@/assets/icons/facebook.svg";
-import twitterIcon from "@/assets/icons/twitter.svg";
-import instagramIcon from "@/assets/icons/instagram.svg";
-import twitchIcon from "@/assets/icons/twitch.svg";*/
-import circleDownIcon from "@/assets/icons/circle-down.svg";
-import githubIcon from "@/assets/icons/github.svg";
-import linkedinIcon from "@/assets/icons/linkedin.svg";
-
 import Footer from "@/components/footer/Footer.vue";
 import Header from "@/components/header/Header.vue";
 
@@ -32,13 +24,6 @@ export default {
   },
   data() {
     return {
-      /*facebookIcon: facebookIcon,
-      twitterIcon: twitterIcon,
-      instagramIcon: instagramIcon,
-      twitchIcon: twitchIcon,*/
-      circleDownIcon: circleDownIcon,
-      githubIcon: githubIcon,
-      linkedinIcon: linkedinIcon,
       name: "Cécile Blin",
       description:
         "Je travaille dans le domaine du <b>Marketing et du Social media</b>.<br/>Faisons défiler la page pour en apprendre plus sur moi.",

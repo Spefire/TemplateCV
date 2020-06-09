@@ -1,9 +1,9 @@
 <template>
   <div class="hobbie-state">
     <div class="hobbie-img">
-      <img v-bind:src="image" />
+      <span class="icon hobbie-icon" v-bind:class="'icon-' + icon"></span>
     </div>
-    <label>{{name}}</label>
+    <label>{{ name }}</label>
   </div>
 </template>
 
