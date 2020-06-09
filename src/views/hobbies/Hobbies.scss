@@ -5,6 +5,12 @@
   padding: 35px 20%;
   background: $primary-color;
 
+  @include mobile-only {
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 7.5%;
+  }
+
   h2 {
     height: fit-content;
     width: fit-content;
@@ -14,10 +20,5 @@
   .hobbies-title {
     text-transform: uppercase;
     border-bottom: 4px solid $white-color;
-  }
-
-  .hobbies-list {
-    display: flex;
-    flex-wrap: wrap;
   }
 }

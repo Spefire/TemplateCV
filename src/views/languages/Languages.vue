@@ -4,7 +4,7 @@
       <h2 class="languages-title">Langues</h2>
     </div>
     <div class="section-right-layout">
-      <div class="languages-list">
+      <div class="wrap-container">
         <ProgressBar
           v-for="(language, index) in languageList"
           v-bind:key="'languageList' + index"
@@ -16,7 +16,9 @@
         <li
           v-for="(otherLanguage, index) in otherLanguageList"
           v-bind:key="'otherLanguageList' + index"
-        >{{ otherLanguage }}</li>
+        >
+          {{ otherLanguage }}
+        </li>
       </ul>
     </div>
   </div>

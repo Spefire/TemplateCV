@@ -1,10 +1,16 @@
 @import "@/styles/variables.scss";
 
 .progress-bar {
-  flex: 1 0 48%;
+  @include mobile-only {
+    flex: 1 0 100%;
+  }
 
   &:nth-child(even) {
     margin-left: 4%;
+
+    @include mobile-only {
+      margin-left: 0;
+    }
   }
 }
 
@@ -26,6 +32,10 @@
   width: 100%;
   margin-bottom: 20px;
   background-color: $primary-color;
+
+  @include mobile-only {
+    margin-bottom: 10px;
+  }
 
   .progress-bar-interne {
     height: 25px;

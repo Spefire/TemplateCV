@@ -4,7 +4,7 @@
       <h2 class="hobbies-title">Loisirs</h2>
     </div>
     <div class="section-right-layout">
-      <div class="hobbies-list">
+      <div class="wrap-container">
         <HobbieState
           v-for="(hobbie, index) in hobbieList"
           v-bind:key="'hobbieList' + index"

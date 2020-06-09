@@ -5,6 +5,12 @@
   padding: 0 20% 35px 20%;
   background: $white-color;
 
+  @include mobile-only {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 7.5% 35px 7.5%;
+  }
+
   h2 {
     height: fit-content;
     width: fit-content;
@@ -14,10 +20,5 @@
   .languages-title {
     text-transform: uppercase;
     border-bottom: 4px solid $primary-color;
-  }
-
-  .languages-list {
-    display: flex;
-    flex-wrap: wrap;
   }
 }

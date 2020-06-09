@@ -11,6 +11,10 @@ header {
   &.with-background {
     background: $black-color;
   }
+
+  @include mobile-only {
+    display: none;
+  }
 }
 
 nav {

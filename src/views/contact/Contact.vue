@@ -5,7 +5,7 @@
     </div>
     <div class="section-right-layout">
       <h2>Contact</h2>
-      <div class="contact-links">
+      <div class="contact-links wrap-container">
         <div>
           <h4>Adresse postale</h4>
           <p class="contact-text" v-html="contactAdress"></p>

@@ -5,6 +5,20 @@
   padding: 35px 20%;
   background: $dark-secondary-color;
 
+  @include mobile-only {
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 7.5%;
+
+    h2 {
+      display: none;
+    }
+
+    .section-left-layout {
+      margin-bottom: 0;
+    }
+  }
+
   .about-profile {
     height: 250px;
     width: 200px;
@@ -16,6 +30,10 @@
 
   .about-text {
     color: $secondary-color;
+
+    @include mobile-only {
+      text-align: center;
+    }
   }
 
   .about-links {

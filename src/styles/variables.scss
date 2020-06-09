@@ -13,5 +13,20 @@ $filter-secondary-color: brightness(0) saturate(100%) invert(37%) sepia(9%)
 $black-color: #000000;
 $white-color: #ffffff;
 
-$font-title-size: 120px;
-$font-big-size: 24px;
+// Variables pour le responsive
+$breakpoints: (
+  tablet: 1023px,
+  mobile: 499px,
+);
+
+@mixin tablet-only {
+  @media screen and (max-width: map-get($breakpoints, tablet)) {
+    @content;
+  }
+}
+
+@mixin mobile-only {
+  @media screen and (max-width: map-get($breakpoints, mobile)) {
+    @content;
+  }
+}
