@@ -11,10 +11,6 @@ header {
   &.with-background {
     background: $black-color;
   }
-
-  @include mobile-only {
-    display: none;
-  }
 }
 
 nav {
@@ -24,6 +20,10 @@ nav {
   height: 100%;
   width: 100%;
 
+  @include tablet-only {
+    justify-content: space-evenly;
+  }
+
   div {
     margin: 0 2%;
     font-weight: bold;
@@ -32,9 +32,29 @@ nav {
     text-decoration: none;
     cursor: pointer;
 
+    @include tablet-only {
+      display: none;
+    }
+
     &.active,
     &:hover {
       color: $primary-color;
+    }
+  }
+
+  .nav-icon {
+    display: none;
+    justify-content: space-evenly;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+
+    @include tablet-only {
+      display: block;
+    }
+
+    &:hover {
+      filter: $filter-primary-color;
     }
   }
 }

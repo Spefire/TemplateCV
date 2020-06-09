@@ -1,6 +1,2 @@
-- Gérer le responsive
 - Gérer les liens sociaux
 - Ajouter les balises meta
-
-- (optionnel) Changer la section expériences
-- (optionnel) Mettre tout le texte dans un seul fichier

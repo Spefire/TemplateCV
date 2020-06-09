@@ -40,6 +40,26 @@
       >
         Contact
       </div>
+      <span
+        v-scroll-to="{ el: '#nav-home', offset: -50 }"
+        class="icon nav-icon icon-home"
+      ></span>
+      <span
+        v-scroll-to="{ el: '#nav-education', offset: -50 }"
+        class="icon nav-icon icon-user-tie"
+      ></span>
+      <span
+        v-scroll-to="{ el: '#nav-skills', offset: -50 }"
+        class="icon nav-icon icon-stats-bars"
+      ></span>
+      <span
+        v-scroll-to="{ el: '#nav-hobbies', offset: -50 }"
+        class="icon nav-icon icon-book"
+      ></span>
+      <span
+        v-scroll-to="{ el: '#nav-contact', offset: -50 }"
+        class="icon nav-icon icon-users"
+      ></span>
     </nav>
   </header>
 </template>
