@@ -24,7 +24,7 @@ export default {
   },
   data() {
     return {
-      name: "Cécile Blin",
+      name: "Cécile BLIN",
       description:
         "Je travaille dans le domaine du <b>Marketing et du Social media</b>.<br/>Faisons défiler la page pour en apprendre plus sur moi.",
     };
