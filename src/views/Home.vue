@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <div id="nav-home" class="home-section">
+    <div id="nav-home" class="home-page">
       <h1>{{ name }}</h1>
       <p v-html="description"></p>
       <div class="home-links">

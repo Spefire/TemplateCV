@@ -1,7 +1,7 @@
 <template>
-  <div id="nav-languages" class="languages-section">
+  <div id="nav-languages" class="section languages-section">
     <div class="section-left-layout">
-      <h2 class="languages-title">Langues</h2>
+      <h2 class="section-title">Langues</h2>
     </div>
     <div class="section-right-layout">
       <div class="wrap-container">
@@ -16,9 +16,7 @@
         <li
           v-for="(otherLanguage, index) in otherLanguageList"
           v-bind:key="'otherLanguageList' + index"
-        >
-          {{ otherLanguage }}
-        </li>
+        >{{ otherLanguage }}</li>
       </ul>
     </div>
   </div>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header v-bind:isLegacy="true" />
-    <div id="nav-legacy" class="legacy-section">
+    <div id="nav-legacy" class="legacy-page">
       <h2>Mentions Légales</h2>
       <p v-html="mentions"></p>
       <router-link class="link-button" to="/">

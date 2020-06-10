@@ -1,7 +1,7 @@
 <template>
-  <div id="nav-skills" class="skills-section">
+  <div id="nav-skills" class="section skills-section">
     <div class="section-left-layout">
-      <h2 class="skills-title">Compétences</h2>
+      <h2 class="section-title">Compétences</h2>
     </div>
     <div class="section-right-layout">
       <div class="wrap-container">
@@ -16,9 +16,7 @@
         <li
           v-for="(otherSkill, index) in otherSkillList"
           v-bind:key="'otherSkillList' + index"
-        >
-          {{ otherSkill }}
-        </li>
+        >{{ otherSkill }}</li>
       </ul>
     </div>
   </div>

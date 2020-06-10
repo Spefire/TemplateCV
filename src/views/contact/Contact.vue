@@ -1,5 +1,5 @@
 <template>
-  <div id="nav-contact" class="contact-section">
+  <div id="nav-contact" class="section contact-section">
     <div class="section-left-layout">
       <span class="icon contact-icon icon-users"></span>
     </div>

@@ -1,7 +1,7 @@
 <template>
-  <div id="nav-education" class="education-section">
+  <div id="nav-education" class="section education-section">
     <div class="section-left-layout">
-      <h2 class="education-title">Formations</h2>
+      <h2 class="section-title">Formations</h2>
     </div>
     <div class="section-right-layout">
       <div v-for="(educ, index) in educList" :key="index">

@@ -19,14 +19,14 @@ h1 {
   font-family: "Madras", "Segoe UI", sans-serif;
 
   @include mobile-only {
-    font-size: 100px;
+    font-size: 70px;
   }
 }
 
 h2 {
   margin: 0;
   font-size: 24px;
-  color: $white-color;
+  color: $black-color;
 }
 
 h4 {

@@ -1,5 +1,5 @@
 <template>
-  <div id="nav-about" class="about-section">
+  <div id="nav-about" class="section about-section">
     <div class="section-left-layout">
       <div class="about-profile" />
     </div>
@@ -11,10 +11,7 @@
           <span class="icon button-icon icon-folder-upload"></span>Télécharger
           le CV
         </a>
-        <a
-          class="link-button"
-          v-scroll-to="{ el: '#nav-contact', offset: -50 }"
-        >
+        <a class="link-button" v-scroll-to="{ el: '#nav-contact', offset: -50 }">
           <span class="icon button-icon icon-users"></span>Me contacter
         </a>
       </div>
