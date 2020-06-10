@@ -14,4 +14,8 @@
   @include tablet-only {
     padding: 85px 5% 35px 5%;
   }
+
+  h2 {
+    color: $white-color;
+  }
 }
