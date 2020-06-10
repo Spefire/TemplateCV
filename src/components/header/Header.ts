@@ -1,7 +1,9 @@
-import { Component, Vue } from "vue-property-decorator";
+import { Component, Vue, Prop } from "vue-property-decorator";
 
 @Component
 export default class Header extends Vue {
+  @Prop() isLegacy!: string;
+
   fixNavbar = false;
   opacNavbar = 1.0;
 

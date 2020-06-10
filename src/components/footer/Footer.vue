@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer v-bind:class="{ 'legaced': isLegacy }">
     <div>
       © Copyrights
       <b>Cécile Blin</b>
@@ -7,8 +7,9 @@
     <div>
       Template créé par
       <a href="https://github.com/Spefire/TemplateCV" target="_blank">
-        <b>Nicholas Brun</b>, aka Spefire
-      </a>
+        <b>Nicholas Brun</b>
+      </a> |
+      <router-link class="footer-legacy" to="mentions-legales">Mentions Légales</router-link>
     </div>
   </footer>
 </template>

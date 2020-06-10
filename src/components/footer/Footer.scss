@@ -11,8 +11,17 @@ footer {
   color: $white-color;
   background-color: $black-color;
 
+  &.legaced {
+    height: 100px;
+    padding-top: 0;
+  }
+
   a {
     color: $white-color !important;
     text-decoration: none;
+  }
+
+  .footer-legacy {
+    text-decoration: underline;
   }
 }

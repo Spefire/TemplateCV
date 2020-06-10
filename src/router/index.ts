@@ -3,6 +3,7 @@ import VueRouter, { RouteConfig } from "vue-router";
 import VueScrollTo from "vue-scrollto";
 
 import Home from "@/views/Home.vue";
+import Legacy from "@/views/Legacy.vue";
 
 Vue.use(VueRouter);
 // VueScrollTo with default options
@@ -25,6 +26,11 @@ const routes: Array<RouteConfig> = [
     path: "/",
     name: "Home",
     component: Home,
+  },
+  {
+    path: "/mentions-legales",
+    name: "Legacy",
+    component: Legacy,
   },
   { path: "/*", redirect: "/" },
 ];

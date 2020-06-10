@@ -1,5 +1,5 @@
 <template>
-  <div class="home-page">
+  <div>
     <Header />
     <div id="nav-home" class="home-section">
       <h1>{{ name }}</h1>
